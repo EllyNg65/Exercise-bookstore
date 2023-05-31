@@ -9,7 +9,7 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU
 run `npm install -g nodemon` \
 run `nodemon app`
 
-# 2. To server index.html
+# 2. To serve index.html
 
 install live server plugin in VS code\
 click Go Live at the bottom of VS code
