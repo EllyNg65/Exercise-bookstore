@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My simple bookstore page</title>
+  </head>
+  <body>
+    <h3>These are the buttons that trigger the fetches</h3>
+    <button onclick="fetchAllBooks()">Fetch all books</button>
+    <p id="demo"></p>
+    <div id="booklist"></div>
+
+    <br />
+    <hr/ >
+    <button onclick="fetchOneBook()">Fetch one book</button>
+    <div id="onebook"></div>
+    <!-- <book-card title="The Little Prince" author="Jane" rating="9" pages="390"
+      ><div slot="rating">9</div>
+      <div slot="pages">965</div>
+    </book-card> -->
+
+    <!-- scripts -->
+    <script src="./book-card.js"></script>
+    <script src="./fetch.js"></script>
+
+    <style>
+      h3 {
+        color: purple;
+      }
+    </style>
+  </body>
+</html>
